@@ -1,0 +1,138 @@
+/* Home */
+.home {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.background-image {
+    background-image: url('picture/podklad.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-color{
+    background-color: rgb(112, 57, 57);
+}
+/* O nás */
+.section-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.about {
+    padding-top: 100px;
+}
+.about img {
+    max-width:100%;
+    height: 200px;
+}
+.about h2{
+    text-align: center;
+}
+.about h3{
+    margin:15px 0;
+}
+.font1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.font2 {
+    font-family: 'Passion One', cursive;
+}
+
+.font3 {
+    font-family: 'Permanent Marker', cursive;
+}
+@media (max-width: 768px) {
+    .about img {
+        display: none;
+    }
+}
+/*Galerie */
+.gallery {
+    padding-top: 100px;
+  }
+  .carousel-inner {
+    max-width: 800px;
+    margin:auto;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 100px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: auto;
+  }
+/*Ohlasy*/
+.review {
+    padding-top: 100px;
+  }
+  .card {
+    min-height: 500px;
+  }
+  .card-body {
+    text-align: center;
+  }
+  /*Formular*/
+.form {
+    padding-top: 100px;
+  }
+  .formular {
+    background-color: rgb(112, 57, 57);
+    padding: 30px;
+    border-radius: 30px;
+    color: white;
+    width: auto;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .pozice-tlacitka{
+    display: flex;
+    justify-content: center;
+  }
+  /*mapa */
+.map {
+    padding-top: 100px;
+  }
+  .map-responsive {
+    position: relative;
+    padding: 100px;
+  }
+  .map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+  }
+  /*Kontakty */
+.contacts {
+    padding-top: 100px;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .social-links img {
+    width: 50x;
+    height: 50px;
+  }
